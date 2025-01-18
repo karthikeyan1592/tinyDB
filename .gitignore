@@ -1,0 +1,9 @@
+build/
+*.o
+*.a
+*.db
+.vscode/
+CMakeCache.txt
+CMakeFiles/
+*.cmake
+Makefile
