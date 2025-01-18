@@ -1,0 +1,2 @@
+# tinyDB
+Educational DBMS.
