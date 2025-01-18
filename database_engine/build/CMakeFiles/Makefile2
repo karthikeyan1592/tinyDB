@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/karthi/test/tinyDB/database_engine
+CMAKE_SOURCE_DIR = /root/karthi/tinyDB/database_engine
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/karthi/test/tinyDB/database_engine/build
+CMAKE_BINARY_DIR = /root/karthi/tinyDB/database_engine/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -117,14 +117,14 @@ CMakeFiles/database_engine.dir/all: storage/CMakeFiles/slotted_page.dir/all
 CMakeFiles/database_engine.dir/all: heap_file/CMakeFiles/heap_file.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/database_engine.dir/build.make CMakeFiles/database_engine.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/database_engine.dir/build.make CMakeFiles/database_engine.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/root/karthi/test/tinyDB/database_engine/build/CMakeFiles --progress-num=1,2 "Built target database_engine"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/root/karthi/tinyDB/database_engine/build/CMakeFiles --progress-num=1,2 "Built target database_engine"
 .PHONY : CMakeFiles/database_engine.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/database_engine.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/karthi/test/tinyDB/database_engine/build/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/karthi/tinyDB/database_engine/build/CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/database_engine.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/karthi/test/tinyDB/database_engine/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/karthi/tinyDB/database_engine/build/CMakeFiles 0
 .PHONY : CMakeFiles/database_engine.dir/rule
 
 # Convenience name for target.
@@ -143,14 +143,14 @@ CMakeFiles/database_engine.dir/clean:
 storage/CMakeFiles/slotted_page.dir/all:
 	$(MAKE) $(MAKESILENT) -f storage/CMakeFiles/slotted_page.dir/build.make storage/CMakeFiles/slotted_page.dir/depend
 	$(MAKE) $(MAKESILENT) -f storage/CMakeFiles/slotted_page.dir/build.make storage/CMakeFiles/slotted_page.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/root/karthi/test/tinyDB/database_engine/build/CMakeFiles --progress-num=5,6 "Built target slotted_page"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/root/karthi/tinyDB/database_engine/build/CMakeFiles --progress-num=5,6 "Built target slotted_page"
 .PHONY : storage/CMakeFiles/slotted_page.dir/all
 
 # Build rule for subdir invocation for target.
 storage/CMakeFiles/slotted_page.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/karthi/test/tinyDB/database_engine/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/karthi/tinyDB/database_engine/build/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 storage/CMakeFiles/slotted_page.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/karthi/test/tinyDB/database_engine/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/karthi/tinyDB/database_engine/build/CMakeFiles 0
 .PHONY : storage/CMakeFiles/slotted_page.dir/rule
 
 # Convenience name for target.
@@ -169,14 +169,14 @@ storage/CMakeFiles/slotted_page.dir/clean:
 heap_file/CMakeFiles/heap_file.dir/all: storage/CMakeFiles/slotted_page.dir/all
 	$(MAKE) $(MAKESILENT) -f heap_file/CMakeFiles/heap_file.dir/build.make heap_file/CMakeFiles/heap_file.dir/depend
 	$(MAKE) $(MAKESILENT) -f heap_file/CMakeFiles/heap_file.dir/build.make heap_file/CMakeFiles/heap_file.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/root/karthi/test/tinyDB/database_engine/build/CMakeFiles --progress-num=3,4 "Built target heap_file"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/root/karthi/tinyDB/database_engine/build/CMakeFiles --progress-num=3,4 "Built target heap_file"
 .PHONY : heap_file/CMakeFiles/heap_file.dir/all
 
 # Build rule for subdir invocation for target.
 heap_file/CMakeFiles/heap_file.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/karthi/test/tinyDB/database_engine/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/karthi/tinyDB/database_engine/build/CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 heap_file/CMakeFiles/heap_file.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/karthi/test/tinyDB/database_engine/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/karthi/tinyDB/database_engine/build/CMakeFiles 0
 .PHONY : heap_file/CMakeFiles/heap_file.dir/rule
 
 # Convenience name for target.

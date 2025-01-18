@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/karthi/test/tinyDB/database_engine
+CMAKE_SOURCE_DIR = /root/karthi/tinyDB/database_engine
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/karthi/test/tinyDB/database_engine/build
+CMAKE_BINARY_DIR = /root/karthi/tinyDB/database_engine/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /root/karthi/test/tinyDB/database_engine/build && $(CMAKE_COMMAND) -E cmake_progress_start /root/karthi/test/tinyDB/database_engine/build/CMakeFiles /root/karthi/test/tinyDB/database_engine/build/storage//CMakeFiles/progress.marks
-	cd /root/karthi/test/tinyDB/database_engine/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 storage/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/karthi/test/tinyDB/database_engine/build/CMakeFiles 0
+	cd /root/karthi/tinyDB/database_engine/build && $(CMAKE_COMMAND) -E cmake_progress_start /root/karthi/tinyDB/database_engine/build/CMakeFiles /root/karthi/tinyDB/database_engine/build/storage//CMakeFiles/progress.marks
+	cd /root/karthi/tinyDB/database_engine/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 storage/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/karthi/tinyDB/database_engine/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /root/karthi/test/tinyDB/database_engine/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 storage/clean
+	cd /root/karthi/tinyDB/database_engine/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 storage/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /root/karthi/test/tinyDB/database_engine/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 storage/preinstall
+	cd /root/karthi/tinyDB/database_engine/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 storage/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /root/karthi/test/tinyDB/database_engine/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 storage/preinstall
+	cd /root/karthi/tinyDB/database_engine/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 storage/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /root/karthi/test/tinyDB/database_engine/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /root/karthi/tinyDB/database_engine/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 storage/CMakeFiles/slotted_page.dir/rule:
-	cd /root/karthi/test/tinyDB/database_engine/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 storage/CMakeFiles/slotted_page.dir/rule
+	cd /root/karthi/tinyDB/database_engine/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 storage/CMakeFiles/slotted_page.dir/rule
 .PHONY : storage/CMakeFiles/slotted_page.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ slotted_page: storage/CMakeFiles/slotted_page.dir/rule
 
 # fast build rule for target.
 slotted_page/fast:
-	cd /root/karthi/test/tinyDB/database_engine/build && $(MAKE) $(MAKESILENT) -f storage/CMakeFiles/slotted_page.dir/build.make storage/CMakeFiles/slotted_page.dir/build
+	cd /root/karthi/tinyDB/database_engine/build && $(MAKE) $(MAKESILENT) -f storage/CMakeFiles/slotted_page.dir/build.make storage/CMakeFiles/slotted_page.dir/build
 .PHONY : slotted_page/fast
 
 src/slotted_page.o: src/slotted_page.cpp.o
@@ -135,7 +135,7 @@ src/slotted_page.o: src/slotted_page.cpp.o
 
 # target to build an object file
 src/slotted_page.cpp.o:
-	cd /root/karthi/test/tinyDB/database_engine/build && $(MAKE) $(MAKESILENT) -f storage/CMakeFiles/slotted_page.dir/build.make storage/CMakeFiles/slotted_page.dir/src/slotted_page.cpp.o
+	cd /root/karthi/tinyDB/database_engine/build && $(MAKE) $(MAKESILENT) -f storage/CMakeFiles/slotted_page.dir/build.make storage/CMakeFiles/slotted_page.dir/src/slotted_page.cpp.o
 .PHONY : src/slotted_page.cpp.o
 
 src/slotted_page.i: src/slotted_page.cpp.i
@@ -143,7 +143,7 @@ src/slotted_page.i: src/slotted_page.cpp.i
 
 # target to preprocess a source file
 src/slotted_page.cpp.i:
-	cd /root/karthi/test/tinyDB/database_engine/build && $(MAKE) $(MAKESILENT) -f storage/CMakeFiles/slotted_page.dir/build.make storage/CMakeFiles/slotted_page.dir/src/slotted_page.cpp.i
+	cd /root/karthi/tinyDB/database_engine/build && $(MAKE) $(MAKESILENT) -f storage/CMakeFiles/slotted_page.dir/build.make storage/CMakeFiles/slotted_page.dir/src/slotted_page.cpp.i
 .PHONY : src/slotted_page.cpp.i
 
 src/slotted_page.s: src/slotted_page.cpp.s
@@ -151,7 +151,7 @@ src/slotted_page.s: src/slotted_page.cpp.s
 
 # target to generate assembly for a file
 src/slotted_page.cpp.s:
-	cd /root/karthi/test/tinyDB/database_engine/build && $(MAKE) $(MAKESILENT) -f storage/CMakeFiles/slotted_page.dir/build.make storage/CMakeFiles/slotted_page.dir/src/slotted_page.cpp.s
+	cd /root/karthi/tinyDB/database_engine/build && $(MAKE) $(MAKESILENT) -f storage/CMakeFiles/slotted_page.dir/build.make storage/CMakeFiles/slotted_page.dir/src/slotted_page.cpp.s
 .PHONY : src/slotted_page.cpp.s
 
 # Help Target
@@ -177,6 +177,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /root/karthi/test/tinyDB/database_engine/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /root/karthi/tinyDB/database_engine/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

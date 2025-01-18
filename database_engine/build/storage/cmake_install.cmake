@@ -1,4 +1,4 @@
-# Install script for directory: /root/karthi/test/tinyDB/database_engine/storage
+# Install script for directory: /root/karthi/tinyDB/database_engine/storage
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/root/karthi/test/tinyDB/database_engine/storage/src -I/root/karthi/test/tinyDB/database_engine/heap_file
+CXX_INCLUDES = -I/root/karthi/tinyDB/database_engine/storage/src -I/root/karthi/tinyDB/database_engine/heap_file
 
 CXX_FLAGS = -std=gnu++17
 

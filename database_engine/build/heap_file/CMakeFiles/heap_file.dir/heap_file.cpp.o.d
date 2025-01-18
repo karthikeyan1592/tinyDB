@@ -1,5 +1,5 @@
 heap_file/CMakeFiles/heap_file.dir/heap_file.cpp.o: \
- /root/karthi/test/tinyDB/database_engine/heap_file/heap_file.cpp \
+ /root/karthi/tinyDB/database_engine/heap_file/heap_file.cpp \
  /usr/include/stdc-predef.h /usr/include/fcntl.h /usr/include/features.h \
  /usr/include/features-time64.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
@@ -194,7 +194,7 @@ heap_file/CMakeFiles/heap_file.dir/heap_file.cpp.o: \
  /usr/include/c++/13/bits/basic_ios.tcc \
  /usr/include/c++/13/bits/ostream.tcc /usr/include/c++/13/istream \
  /usr/include/c++/13/bits/istream.tcc \
- /root/karthi/test/tinyDB/database_engine/heap_file/heap_file.hpp \
+ /root/karthi/tinyDB/database_engine/heap_file/heap_file.hpp \
  /usr/include/c++/13/vector /usr/include/c++/13/bits/stl_uninitialized.h \
  /usr/include/c++/13/bits/stl_vector.h \
  /usr/include/c++/13/bits/stl_bvector.h \

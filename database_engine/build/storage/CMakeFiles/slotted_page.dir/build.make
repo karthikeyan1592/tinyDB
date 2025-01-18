@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/karthi/test/tinyDB/database_engine
+CMAKE_SOURCE_DIR = /root/karthi/tinyDB/database_engine
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/karthi/test/tinyDB/database_engine/build
+CMAKE_BINARY_DIR = /root/karthi/tinyDB/database_engine/build
 
 # Include any dependencies generated for this target.
 include storage/CMakeFiles/slotted_page.dir/depend.make
@@ -70,18 +70,18 @@ include storage/CMakeFiles/slotted_page.dir/progress.make
 include storage/CMakeFiles/slotted_page.dir/flags.make
 
 storage/CMakeFiles/slotted_page.dir/src/slotted_page.cpp.o: storage/CMakeFiles/slotted_page.dir/flags.make
-storage/CMakeFiles/slotted_page.dir/src/slotted_page.cpp.o: /root/karthi/test/tinyDB/database_engine/storage/src/slotted_page.cpp
+storage/CMakeFiles/slotted_page.dir/src/slotted_page.cpp.o: /root/karthi/tinyDB/database_engine/storage/src/slotted_page.cpp
 storage/CMakeFiles/slotted_page.dir/src/slotted_page.cpp.o: storage/CMakeFiles/slotted_page.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/karthi/test/tinyDB/database_engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object storage/CMakeFiles/slotted_page.dir/src/slotted_page.cpp.o"
-	cd /root/karthi/test/tinyDB/database_engine/build/storage && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT storage/CMakeFiles/slotted_page.dir/src/slotted_page.cpp.o -MF CMakeFiles/slotted_page.dir/src/slotted_page.cpp.o.d -o CMakeFiles/slotted_page.dir/src/slotted_page.cpp.o -c /root/karthi/test/tinyDB/database_engine/storage/src/slotted_page.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/karthi/tinyDB/database_engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object storage/CMakeFiles/slotted_page.dir/src/slotted_page.cpp.o"
+	cd /root/karthi/tinyDB/database_engine/build/storage && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT storage/CMakeFiles/slotted_page.dir/src/slotted_page.cpp.o -MF CMakeFiles/slotted_page.dir/src/slotted_page.cpp.o.d -o CMakeFiles/slotted_page.dir/src/slotted_page.cpp.o -c /root/karthi/tinyDB/database_engine/storage/src/slotted_page.cpp
 
 storage/CMakeFiles/slotted_page.dir/src/slotted_page.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/slotted_page.dir/src/slotted_page.cpp.i"
-	cd /root/karthi/test/tinyDB/database_engine/build/storage && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/karthi/test/tinyDB/database_engine/storage/src/slotted_page.cpp > CMakeFiles/slotted_page.dir/src/slotted_page.cpp.i
+	cd /root/karthi/tinyDB/database_engine/build/storage && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/karthi/tinyDB/database_engine/storage/src/slotted_page.cpp > CMakeFiles/slotted_page.dir/src/slotted_page.cpp.i
 
 storage/CMakeFiles/slotted_page.dir/src/slotted_page.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/slotted_page.dir/src/slotted_page.cpp.s"
-	cd /root/karthi/test/tinyDB/database_engine/build/storage && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/karthi/test/tinyDB/database_engine/storage/src/slotted_page.cpp -o CMakeFiles/slotted_page.dir/src/slotted_page.cpp.s
+	cd /root/karthi/tinyDB/database_engine/build/storage && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/karthi/tinyDB/database_engine/storage/src/slotted_page.cpp -o CMakeFiles/slotted_page.dir/src/slotted_page.cpp.s
 
 # Object files for target slotted_page
 slotted_page_OBJECTS = \
@@ -93,19 +93,19 @@ slotted_page_EXTERNAL_OBJECTS =
 storage/libslotted_page.a: storage/CMakeFiles/slotted_page.dir/src/slotted_page.cpp.o
 storage/libslotted_page.a: storage/CMakeFiles/slotted_page.dir/build.make
 storage/libslotted_page.a: storage/CMakeFiles/slotted_page.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/root/karthi/test/tinyDB/database_engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libslotted_page.a"
-	cd /root/karthi/test/tinyDB/database_engine/build/storage && $(CMAKE_COMMAND) -P CMakeFiles/slotted_page.dir/cmake_clean_target.cmake
-	cd /root/karthi/test/tinyDB/database_engine/build/storage && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/slotted_page.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/root/karthi/tinyDB/database_engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libslotted_page.a"
+	cd /root/karthi/tinyDB/database_engine/build/storage && $(CMAKE_COMMAND) -P CMakeFiles/slotted_page.dir/cmake_clean_target.cmake
+	cd /root/karthi/tinyDB/database_engine/build/storage && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/slotted_page.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 storage/CMakeFiles/slotted_page.dir/build: storage/libslotted_page.a
 .PHONY : storage/CMakeFiles/slotted_page.dir/build
 
 storage/CMakeFiles/slotted_page.dir/clean:
-	cd /root/karthi/test/tinyDB/database_engine/build/storage && $(CMAKE_COMMAND) -P CMakeFiles/slotted_page.dir/cmake_clean.cmake
+	cd /root/karthi/tinyDB/database_engine/build/storage && $(CMAKE_COMMAND) -P CMakeFiles/slotted_page.dir/cmake_clean.cmake
 .PHONY : storage/CMakeFiles/slotted_page.dir/clean
 
 storage/CMakeFiles/slotted_page.dir/depend:
-	cd /root/karthi/test/tinyDB/database_engine/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/karthi/test/tinyDB/database_engine /root/karthi/test/tinyDB/database_engine/storage /root/karthi/test/tinyDB/database_engine/build /root/karthi/test/tinyDB/database_engine/build/storage /root/karthi/test/tinyDB/database_engine/build/storage/CMakeFiles/slotted_page.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /root/karthi/tinyDB/database_engine/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/karthi/tinyDB/database_engine /root/karthi/tinyDB/database_engine/storage /root/karthi/tinyDB/database_engine/build /root/karthi/tinyDB/database_engine/build/storage /root/karthi/tinyDB/database_engine/build/storage/CMakeFiles/slotted_page.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : storage/CMakeFiles/slotted_page.dir/depend
 

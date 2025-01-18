@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/karthi/test/tinyDB/database_engine
+CMAKE_SOURCE_DIR = /root/karthi/tinyDB/database_engine
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/karthi/test/tinyDB/database_engine/build
+CMAKE_BINARY_DIR = /root/karthi/tinyDB/database_engine/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /root/karthi/test/tinyDB/database_engine/build && $(CMAKE_COMMAND) -E cmake_progress_start /root/karthi/test/tinyDB/database_engine/build/CMakeFiles /root/karthi/test/tinyDB/database_engine/build/heap_file//CMakeFiles/progress.marks
-	cd /root/karthi/test/tinyDB/database_engine/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 heap_file/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/karthi/test/tinyDB/database_engine/build/CMakeFiles 0
+	cd /root/karthi/tinyDB/database_engine/build && $(CMAKE_COMMAND) -E cmake_progress_start /root/karthi/tinyDB/database_engine/build/CMakeFiles /root/karthi/tinyDB/database_engine/build/heap_file//CMakeFiles/progress.marks
+	cd /root/karthi/tinyDB/database_engine/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 heap_file/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/karthi/tinyDB/database_engine/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /root/karthi/test/tinyDB/database_engine/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 heap_file/clean
+	cd /root/karthi/tinyDB/database_engine/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 heap_file/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /root/karthi/test/tinyDB/database_engine/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 heap_file/preinstall
+	cd /root/karthi/tinyDB/database_engine/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 heap_file/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /root/karthi/test/tinyDB/database_engine/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 heap_file/preinstall
+	cd /root/karthi/tinyDB/database_engine/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 heap_file/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /root/karthi/test/tinyDB/database_engine/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /root/karthi/tinyDB/database_engine/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 heap_file/CMakeFiles/heap_file.dir/rule:
-	cd /root/karthi/test/tinyDB/database_engine/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 heap_file/CMakeFiles/heap_file.dir/rule
+	cd /root/karthi/tinyDB/database_engine/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 heap_file/CMakeFiles/heap_file.dir/rule
 .PHONY : heap_file/CMakeFiles/heap_file.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ heap_file: heap_file/CMakeFiles/heap_file.dir/rule
 
 # fast build rule for target.
 heap_file/fast:
-	cd /root/karthi/test/tinyDB/database_engine/build && $(MAKE) $(MAKESILENT) -f heap_file/CMakeFiles/heap_file.dir/build.make heap_file/CMakeFiles/heap_file.dir/build
+	cd /root/karthi/tinyDB/database_engine/build && $(MAKE) $(MAKESILENT) -f heap_file/CMakeFiles/heap_file.dir/build.make heap_file/CMakeFiles/heap_file.dir/build
 .PHONY : heap_file/fast
 
 heap_file.o: heap_file.cpp.o
@@ -135,7 +135,7 @@ heap_file.o: heap_file.cpp.o
 
 # target to build an object file
 heap_file.cpp.o:
-	cd /root/karthi/test/tinyDB/database_engine/build && $(MAKE) $(MAKESILENT) -f heap_file/CMakeFiles/heap_file.dir/build.make heap_file/CMakeFiles/heap_file.dir/heap_file.cpp.o
+	cd /root/karthi/tinyDB/database_engine/build && $(MAKE) $(MAKESILENT) -f heap_file/CMakeFiles/heap_file.dir/build.make heap_file/CMakeFiles/heap_file.dir/heap_file.cpp.o
 .PHONY : heap_file.cpp.o
 
 heap_file.i: heap_file.cpp.i
@@ -143,7 +143,7 @@ heap_file.i: heap_file.cpp.i
 
 # target to preprocess a source file
 heap_file.cpp.i:
-	cd /root/karthi/test/tinyDB/database_engine/build && $(MAKE) $(MAKESILENT) -f heap_file/CMakeFiles/heap_file.dir/build.make heap_file/CMakeFiles/heap_file.dir/heap_file.cpp.i
+	cd /root/karthi/tinyDB/database_engine/build && $(MAKE) $(MAKESILENT) -f heap_file/CMakeFiles/heap_file.dir/build.make heap_file/CMakeFiles/heap_file.dir/heap_file.cpp.i
 .PHONY : heap_file.cpp.i
 
 heap_file.s: heap_file.cpp.s
@@ -151,7 +151,7 @@ heap_file.s: heap_file.cpp.s
 
 # target to generate assembly for a file
 heap_file.cpp.s:
-	cd /root/karthi/test/tinyDB/database_engine/build && $(MAKE) $(MAKESILENT) -f heap_file/CMakeFiles/heap_file.dir/build.make heap_file/CMakeFiles/heap_file.dir/heap_file.cpp.s
+	cd /root/karthi/tinyDB/database_engine/build && $(MAKE) $(MAKESILENT) -f heap_file/CMakeFiles/heap_file.dir/build.make heap_file/CMakeFiles/heap_file.dir/heap_file.cpp.s
 .PHONY : heap_file.cpp.s
 
 # Help Target
@@ -177,6 +177,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /root/karthi/test/tinyDB/database_engine/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /root/karthi/tinyDB/database_engine/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

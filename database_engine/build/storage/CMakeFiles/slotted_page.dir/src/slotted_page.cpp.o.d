@@ -1,5 +1,5 @@
 storage/CMakeFiles/slotted_page.dir/src/slotted_page.cpp.o: \
- /root/karthi/test/tinyDB/database_engine/storage/src/slotted_page.cpp \
+ /root/karthi/tinyDB/database_engine/storage/src/slotted_page.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/13/cassert \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
@@ -26,7 +26,7 @@ storage/CMakeFiles/slotted_page.dir/src/slotted_page.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/mman-linux.h \
  /usr/include/x86_64-linux-gnu/bits/mman-shared.h \
  /usr/include/x86_64-linux-gnu/bits/mman_ext.h \
- /root/karthi/test/tinyDB/database_engine/storage/src/slotted_page.hpp \
+ /root/karthi/tinyDB/database_engine/storage/src/slotted_page.hpp \
  /usr/include/c++/13/cstdint \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \

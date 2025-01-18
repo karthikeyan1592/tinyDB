@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/root/karthi/test/tinyDB/database_engine/storage/src/slotted_page.cpp" "storage/CMakeFiles/slotted_page.dir/src/slotted_page.cpp.o" "gcc" "storage/CMakeFiles/slotted_page.dir/src/slotted_page.cpp.o.d"
+  "/root/karthi/tinyDB/database_engine/storage/src/slotted_page.cpp" "storage/CMakeFiles/slotted_page.dir/src/slotted_page.cpp.o" "gcc" "storage/CMakeFiles/slotted_page.dir/src/slotted_page.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

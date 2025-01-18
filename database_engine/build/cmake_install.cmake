@@ -1,4 +1,4 @@
-# Install script for directory: /root/karthi/test/tinyDB/database_engine
+# Install script for directory: /root/karthi/tinyDB/database_engine
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,8 +44,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/root/karthi/test/tinyDB/database_engine/build/storage/cmake_install.cmake")
-  include("/root/karthi/test/tinyDB/database_engine/build/heap_file/cmake_install.cmake")
+  include("/root/karthi/tinyDB/database_engine/build/storage/cmake_install.cmake")
+  include("/root/karthi/tinyDB/database_engine/build/heap_file/cmake_install.cmake")
 
 endif()
 
@@ -57,5 +57,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/root/karthi/test/tinyDB/database_engine/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/root/karthi/tinyDB/database_engine/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
