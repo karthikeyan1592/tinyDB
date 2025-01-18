@@ -1,0 +1,9 @@
+/root/karthi/test/tinyDB/database_engine/build/CMakeFiles/database_engine.dir
+/root/karthi/test/tinyDB/database_engine/build/CMakeFiles/edit_cache.dir
+/root/karthi/test/tinyDB/database_engine/build/CMakeFiles/rebuild_cache.dir
+/root/karthi/test/tinyDB/database_engine/build/storage/CMakeFiles/slotted_page.dir
+/root/karthi/test/tinyDB/database_engine/build/storage/CMakeFiles/edit_cache.dir
+/root/karthi/test/tinyDB/database_engine/build/storage/CMakeFiles/rebuild_cache.dir
+/root/karthi/test/tinyDB/database_engine/build/heap_file/CMakeFiles/heap_file.dir
+/root/karthi/test/tinyDB/database_engine/build/heap_file/CMakeFiles/edit_cache.dir
+/root/karthi/test/tinyDB/database_engine/build/heap_file/CMakeFiles/rebuild_cache.dir
