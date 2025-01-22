@@ -1,0 +1,2 @@
+/usr/bin/ar qc libheap_file.a CMakeFiles/heap_file.dir/heap_file.cpp.o
+/usr/bin/ranlib libheap_file.a

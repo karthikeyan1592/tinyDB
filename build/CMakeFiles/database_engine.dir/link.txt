@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/database_engine.dir/src/main.cpp.o -o database_engine  src/storage/libslotted_page.a src/storage/libheap_file.a src/storage/libslotted_page.a 
