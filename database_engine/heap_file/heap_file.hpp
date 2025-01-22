@@ -24,6 +24,17 @@ public:
 
     // Constructor
     explicit HeapFile(const std::string& filename);
+
+    // Delete copy operations
+    HeapFile(const HeapFile&) = delete;
+    HeapFile& operator=(const HeapFile&) = delete;
+    
+    // Delete move operations
+    HeapFile(HeapFile&& other) noexcept = delete;
+    HeapFile& operator=(HeapFile&& other) noexcept = delete;
+
+    // Default destructor
+    ~HeapFile() = default;
     
     // Core operations
     uint32_t insertRecord(const void* record, uint16_t record_size);

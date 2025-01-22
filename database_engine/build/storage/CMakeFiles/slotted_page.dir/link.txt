@@ -1,2 +1,0 @@
-/usr/bin/ar qc libslotted_page.a CMakeFiles/slotted_page.dir/src/slotted_page.cpp.o
-/usr/bin/ranlib libslotted_page.a
